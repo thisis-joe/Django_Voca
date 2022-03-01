@@ -27,9 +27,9 @@ SECRET_KEY = 'django-insecure-3xlqpovgkek81fpdm#wc27md7%r5cf24^cm2iw4a97mbuie^18
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    ".ap-northeast-2.compute.amazonaws.com"
-    ".www.euphrasia.shop"
-    ".euphrasia.shop"
+    ".ap-northeast-2.compute.amazonaws.com",
+    ".www.euphrasia.shop",
+    ".euphrasia.shop",
 ]
 
 
