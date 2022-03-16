@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load staticfiles %}<!--static 파일들 로드 ex: css, js-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="stylesheet" href="style.css">-->
     <!--<script src="main.js" defer></script>-->
-    <link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}"><!--static 파일들 로드 ex: css, js-->
-    <script src="main.js" defer href="{% static 'main/main.js' %}"></script>
+    <link rel="stylesheet" type="text/css" href="/static/main/style.css">
+    <script src="main.js" defer href="/static/main.js"></script>
     <title>PKNU HACKERS TOEIC VOCA</title>
 </head>
 <body>
